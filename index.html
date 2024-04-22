@@ -1,0 +1,33 @@
+<!-- index.html -->
+
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>Word Guessing Game</title> 
+	<link rel="stylesheet"
+		href="style.css" />  
+</head> 
+
+<body> 
+	<div class="card"> 
+		<h1>Guess the word</h1> 
+		<p> 
+			<b>Hint:</b> <span id="hint-field">A programming language </span>
+		</p> 
+		<p id="displayWord"></p> 
+		<p>Guess one letter: 
+
+			<input type="text"
+				maxlength="1"
+				id="letter-input"
+                onkeyup="guessLetter()"> 
+		</p> 
+		<!-- <button onclick="guessLetter()"> 
+			Submit 
+		</button>  -->
+	</div> 
+</body> 
+
+<script src="./script.js"></script>
+</html>
