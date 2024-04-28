@@ -3095,7 +3095,6 @@ var x".$counter." = setInterval(function() {
 			return false;
 		}
 	}
-	
 //on buy.html
 	public function buy_history($uid){
 		$sql3 ="SELECT * FROM wallet WHERE uid='$uid'";
