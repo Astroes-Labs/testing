@@ -26,7 +26,7 @@
             $('#coin-bal-usd').html(coinBalUsd);
             $('#coin-bal').html(coinBal);
             $('#gas-price-sym').html(tabData[lowerText+'_gas']);
-            $('#avg-coin').html(selectedValue);
+            $('#avg-coin').html('9.084');
             var avgUsd = 9.084 * coinPrice;
             avgUsd = formatCurrency(avgUsd);
             $('#avg-usd').html(avgUsd);
